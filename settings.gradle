@@ -1,0 +1,1 @@
+include ':myapplication', ':mytelephone', ':mylistviewdemo', ':showstudentsmsg', ':showphonedemo', ':messagephone'

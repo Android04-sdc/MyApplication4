@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="homeitem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:contentDescription">主页面textview的Style</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+       <item name="android:clickable">true</item>
+        <item name="android:onClick">hithomeitem</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+
+    </style>
+
+
+</resources>

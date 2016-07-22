@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/im"
+        android:src="@drawable/setting_info_icon_camera"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:id="@+id/tv"
+        android:textSize="15sp"
+        android:text="aaaa"
+        android:layout_alignBottom="@+id/tv1"
+        android:layout_alignRight="@+id/tv1"
+        android:layout_alignEnd="@+id/tv1"
+      />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="bbbb"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/im"
+        android:layout_toRightOf="@+id/im"
+        android:layout_toEndOf="@+id/im"
+        android:layout_marginLeft="107dp"
+        android:layout_marginStart="107dp"
+       />
+
+
+</RelativeLayout>
